@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DrumActivity">
+    
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <Button
+                android:background="@drawable/blue_button"
+                android:onClick="playsound1"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <Button
+                android:onClick="playsound2"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/blue_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <Button
+                android:onClick="playsound3"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/blue_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            
+            
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:onClick="playsound4"
+            android:background="@drawable/purple_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:onClick="playsound5"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/orange_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:onClick="playsound6"
+            android:background="@drawable/pink_button"
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:onClick="playsound7"
+            android:background="@drawable/green_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:onClick="playsound8"
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:background="@drawable/green_button"
+            android:layout_height="100dp" />
+        <Button
+            android:onClick="playsound9"
+            android:layout_width="100dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/green_button"
+            android:layout_height="100dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

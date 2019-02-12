@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:onClick="Click"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/blue_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="Oblicz Swoje BMI !" />
+
+    <Button
+        android:id="@+id/kalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:layout_marginBottom="5dp"
+        android:onClick="Click"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/bmi"
+        android:layout_centerHorizontal="true"
+        android:text="Compass" />
+
+    <Button
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kalk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="Click"
+        android:text="Zagraj!" />
+
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Click"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/blue_button"
+        android:layout_below="@+id/note"
+        android:layout_centerHorizontal="true"
+        android:text="Aparat" />
+
+    <Button
+        android:id="@+id/gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginBottom="5dp"
+        android:onClick="Click"
+        android:layout_below="@+id/cam"
+        android:layout_centerHorizontal="true"
+        android:text="Generator losowy" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginBottom="5dp"
+        android:onClick="Click"
+        android:layout_below="@+id/gen"
+        android:layout_centerHorizontal="true"
+        android:text="Odtwarzacz" />
+
+    <Button
+        android:id="@+id/drum_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:layout_above="@+id/bmi"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="Click"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-165dp"
+        android:text="Drum Pad" />
+
+    <Button
+        android:id="@+id/szkicbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="Click"
+        android:background="@drawable/blue_button"
+        android:layout_centerHorizontal="true"
+        android:text="Szkicuj" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo2" />
+
+</RelativeLayout>
+

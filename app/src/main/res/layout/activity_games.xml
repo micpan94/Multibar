@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/casino"
+    tools:context=".GamesActivity">
+
+    <Button
+        android:id="@+id/tictac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_centerInParent="true"
+        android:onClick="Click"
+        android:text="Two players!"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/spin"
+        android:layout_width="match_parent"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:onClick="Click"
+        android:layout_above="@+id/tictac"
+        android:layout_centerHorizontal="true"
+        android:text="Spin it!" />
+
+    <Button
+        android:id="@+id/dice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:onClick="Click"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@+id/tictac"
+        android:layout_centerHorizontal="true"
+        android:text="Dice roll!" />
+
+</RelativeLayout>
